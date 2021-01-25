@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color: #312c2c;
+}
+
+header h1 {
+    margin-left: 93px;
+}
+
+h1 span {
+    color: #cc0808;
+}
+
+hr {
+    background-color: #cc0808;
+    width: 100%;
+    height: 6px;
+    outline: none;
+}
+
+a.link {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 19px;
+}
+
+main.container {
+    display: flex;
+    height: 70vh;
+    background-image: url("./images/mouse.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    height: 14vh;
+    background-color: #312c2c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="button"] {
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 7px;
+    margin: 12px;
+    background-color: #cc0808;
+}
+
+input.text,
+input[type="date"],
+input[type="time"] {
+    height: 34px;
+    width: 254px;
+}
+
+input[type="date"] {
+    width: 100px;
+}
+
+input[type="time"] {
+    width: 70px;
+}
+
+h1.heading {
+    font-size: 42px;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+    margin-bottom: 11px;
+}
+
+p.subtitle {
+    font-size: 21px;
+}
